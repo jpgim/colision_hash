@@ -24,7 +24,6 @@ def my_func(r, n):
     lista_hash = []
     conj = set()
 
-    global listado
     # caso trivial
     if n == 0:
         return r
@@ -44,7 +43,4 @@ def my_func(r, n):
     else:
         lista_repetidos = lista_hash[indice:]
         direccion = (n - indice - 1) % len(lista_repetidos)  # posible bug
-
-        listado = lista_hash  # for debug
-
         return lista_repetidos[direccion]
