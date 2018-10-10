@@ -1,1 +1,3 @@
 texto auxiliar dentro de auxiliar.txt
+
+texto agregado más tarde
